@@ -1,0 +1,129 @@
+body{
+    height: 100vh;
+    
+}
+
+main{
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 0%, 95%);
+    
+}
+
+.main-container{
+    width: 90%;
+    display: grid;    
+    grid-template-columns: repeat(auto-fit ,minmax(250px, 1fr));  
+    grid-template-rows: 300px;                         
+    background-color:  hsl(0, 0%, 95%);      
+
+}
+.main-container-1{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   margin: 5px 0;
+
+}
+.box-1{
+    padding: 30px;
+    height: 500px;
+    position: relative;
+    background-color: hsl(31, 77%, 52%);
+    font-size: 20px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+.box-2{
+    padding: 30px;
+    height: 500px;
+    position: relative;
+    background-color: hsl(184, 100%, 22%);
+    font-size: 20px;
+
+}
+.box-3{
+    padding: 30px;
+    height: 500px;
+    position: relative;
+    background-color: hsl(179, 100%, 13%);
+    font-size: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.main-container p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 30px;
+    
+    
+    
+
+}
+.main-container h2{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+
+}
+
+.attribution {
+     font-size: 11px;
+      text-align: center; 
+    }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.container{
+    background-color: cyan;
+    margin:0;
+    padding: 1fr 1fr;
+    height: 80px;
+    
+}
+
+.btn-1, .btn-2, .btn-3 {
+    margin-top: 100px;
+    margin-left: 30px;
+    padding: 20px;
+    align-items: center;
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: transparent;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    
+    
+}
+
+.btn-1:hover {
+    border: 0;
+    background-color:hsla(0, 0%, 100%, 0.75);
+    color: hsl(31, 77%, 52%);
+    
+
+}
+.btn-2:hover {
+    border: 0;
+    background-color:hsla(0, 0%, 100%, 0.75);
+    color: hsl(184, 100%, 22%);
+    
+}
+.btn-3:hover {
+    border: 0;
+    background-color:hsla(0, 0%, 100%, 0.75);
+    color: hsl(179, 100%, 13%);
+    
+}
+
+.img-container {
+    margin-left: 30px;
+    height:60px;
+}
+
